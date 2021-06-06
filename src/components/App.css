@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: flex-end;
+
+  background-color: #21252b;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+.company-name,
+.location {
+  margin-right: auto;
+}
+.search-location {
+  margin-right: 20px;
+  border-width: 0;
+  border-radius: 3px;
+  width: 250px;
+}
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.app-title {
+  background-color: darkgray;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.weather-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  justify-content: center;
+}
+.weather-day {
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+}
+.day,
+.temperature {
+  font-size: 25px;
+}
+.temperature {
+  padding-top: 20px;
+}
+.date,
+.time,
+.hourly-time {
+  font-size: 12px;
+}
+.picture {
+  transform: scale(3);
+  padding-top: 12px;
+}
+
+.hourly-forecast {
+  display: flex;
+  justify-content: center;
+
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.hr {
+  margin: 7px;
+}
+.hourly-picture {
+  transform: scale(3);
+  margin-top: 20px;
+}
+.hourly-time {
+  margin-top: 10px;
+}
